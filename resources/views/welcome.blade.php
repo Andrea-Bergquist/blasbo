@@ -185,10 +185,7 @@
                         <p class="text-sm font-semibold text-slate-500">Telefon</p>
                         <a href="tel:+46705900061" class="mt-1 block text-lg font-semibold text-slate-950 hover:text-blue-700">070-590 00 61</a>
                     </div>
-                    <div>
-                        <p class="text-sm font-semibold text-slate-500">E-post</p>
-                        <a href="mailto:info@blasbotransport.se" class="mt-1 block text-lg font-semibold text-slate-950 hover:text-blue-700">info@blasbotransport.se</a>
-                    </div>
+
                     <div>
                         <p class="text-sm font-semibold text-slate-500">Adress</p>
                         <p class="mt-1 text-lg font-semibold text-slate-950">Friledningsgatan 3b<br>721 37 Västerås</p>
@@ -202,7 +199,7 @@
                     {{ session('check') }}
                 </div>
                 @endif
-                <form method="POST" action="{{ route('contact.store') }}" class="space-y-6">
+                <form method="POST" action="{{ route('contact.store') }}#kontakt" class="space-y-6">
                     @csrf
 
                     {{-- Honeypot: riktiga besökare ska aldrig fylla i detta fält. --}}

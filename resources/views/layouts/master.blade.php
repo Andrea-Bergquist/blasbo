@@ -41,9 +41,8 @@
                 <div>
                     <p class="font-semibold text-white">Kontakt</p>
                     <address class="mt-3 space-y-2 text-sm not-italic text-slate-400">
-                        <p>Friledningsgatan 3b, 721 37 Västerås</p>
+                        <p>Friledningsgatan 3b, <br> 721 37 Västerås</p>
                         <p><a class="transition hover:text-white" href="tel:+46705900061">070-590 00 61</a></p>
-                        <p><a class="transition hover:text-white" href="mailto:info@blasbotransport.se">info@blasbotransport.se</a></p>
                     </address>
                 </div>
 

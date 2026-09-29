@@ -18,7 +18,7 @@ class StoreContactRequest extends FormRequest
             'name'    => 'required|string|min:3|max:255',
             'email'   => 'required|email|max:255',
             'phone'   => 'nullable|string|max:50|regex:/^[0-9\s\-\+\(\)]*$/',
-            'message' => 'required|string|min:10|max:2000',
+            'message' => 'required|string|min:5|max:1500',
 
             // Validering för Cloudflare Turnstile
             'cf-turnstile-response' => [
