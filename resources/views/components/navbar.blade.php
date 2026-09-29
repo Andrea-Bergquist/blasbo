@@ -9,9 +9,6 @@
                 alt="Blåsbo Transport AB"
                 class="h-12 w-auto object-contain"
             >
-            <span class="hidden border-l border-slate-200 pl-3 text-sm font-semibold leading-tight text-slate-700 sm:block">
-                Blåsbo Transport AB
-            </span>
         </a>
 
         <button
