@@ -40,8 +40,8 @@
         </div>
 
         <div class="hidden lg:block">
-            <div class="ml-auto max-w-md overflow-hidden rounded-3xl border border-white/10 bg-white/10 p-3 shadow-2xl backdrop-blur">
-                <img src="{{ asset('img/Logo.png') }}" alt="Blåsbo Transport AB" class="h-72 w-full object-contain rounded-2xl bg-white p-10">
+            <div class="ml-auto max-w-md overflow-hidden rounded-3xl border border-white/10 bg-white/10 p-1 shadow-2xl backdrop-blur">
+                <img src="{{ asset('img/btab.png') }}" alt="Blåsbo Transport AB" class="h-72 w-full object-cover rounded-3xl bg-white p-1">
             </div>
         </div>
     </div>
