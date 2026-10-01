@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<!-- Denna sida är gjord av Andréa Bergquist i Laravel 13.33.0|PHP 8.5.11|Alpine js 3.17.4|Tailwind Css 4 -->
+
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth">
 
 <head>
